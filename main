@@ -1,0 +1,40 @@
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+print(timmy)
+timmy.shape("turtle")
+timmy.color("gold1")
+timmy.forward(100)
+timmy.left(120)
+timmy.forward(100)
+timmy.left(120)
+timmy.forward(100)
+timmy.color("gold3")
+timmy.right(120)
+timmy.forward(100)
+timmy.right(120)
+timmy.forward(100)
+timmy.forward(100)
+timmy.right(120)
+timmy.forward(200)
+timmy.right(120)
+timmy.forward(100)
+timmy.forward(100)
+timmy.color("gold1")
+timmy.right(60)
+timmy.forward(200)
+timmy.right(120)
+timmy.forward(200)
+timmy.forward(200)
+timmy.right(120)
+timmy.forward(400)
+timmy.right(120)
+timmy.forward(200)
+
+
+
+
+
+my_screen = Screen()
+print(my_screen.canvheight)
+my_screen.exitonclick()
